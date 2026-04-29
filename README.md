@@ -1,5 +1,11 @@
 # go2_control
 
+## Introduction
+
+This workspace runs Go2 reinforcement-learning policies in Gazebo through `rl_sim`. Policies are stored under `policy/go2`, loaded as TorchScript `.pt` models, and controlled from the keyboard or `/cmd_vel`.
+
+![go2_control](go2_control.png)
+
 ## Compile
 
 ```bash
